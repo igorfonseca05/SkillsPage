@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(32, 32, 32);
+    background-size: cover;
+}
+
+.containerSkills{
+    display: flex;
+    flex-direction: row;
+    max-width: 264px;
+    max-height: 80%;
+    background-color: rgba(127, 255, 212, 0.63);
+    overflow-y:hidden ;
+   
+}
+.containerSkills::-webkit-scrollbar{
+   display: none;
+}
+
+.containerItem{
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    gap: 10px;
+}
+
+.containerItem figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 264.8px;
+    height: 100%;
+}
+
+.containerItem img {
+    width: 100%;
+}
+
+.porcent svg {
+   display: none;
+ }
+
+.containerItem p {
+    color: white;
+    width: 100%;
+    margin-top: 1px;
+    text-align: center;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    position: relative;
+    background-color: rgb(97, 97, 97);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    right: 10px;
+}
+
+button:active {
+    background-color: rgb(48, 47, 47);
+}
+
+button:first-child {
+    left: -136px;
+    top: 156px;
+}
+
+button:nth-child(3){
+    display: flex;
+    align-items: center;
+    right: -136px;
+    top: -160px;
+}
+
+button span {
+    color: white;
+ }
+ 
+.skillName{
+    position: relative;
+    top: -30px;
+    font-size: 28px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
