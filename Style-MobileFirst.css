@@ -19,7 +19,7 @@ body {
     flex-direction: row;
     max-width: 264px;
     max-height: 80%;
-    background-color: rgba(127, 255, 212, 0.63);
+    /* background-color: rgba(127, 255, 212, 0.63); */
     overflow-y:hidden ;
    
 }
